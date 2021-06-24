@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fav_prog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_brown"
+        android:elevation="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ffa_ss2"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/fav_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebas"
+        android:padding="10dp"
+        android:text="@string/fav_restaurants"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fav_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/fav_txt1"
+        android:background="@color/dark_brown" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFavouriteRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fav_line"
+
+        />
+
+</RelativeLayout>

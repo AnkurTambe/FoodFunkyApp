@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creme">
+
+    <ImageView
+        android:id="@+id/ab_iv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/circle_at" />
+
+    <TextView
+        android:id="@+id/ab_line1"
+        android:layout_width="1dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/ab_iv"
+        android:background="@color/dark_brown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/ab_line1"
+        android:fontFamily="@font/bebas"
+        android:gravity="center"
+        android:text="Made by Ankur Tambe"
+        android:textColor="@color/dark_brown"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ab_logo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:elevation="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cat_burger" />
+
+    <RelativeLayout
+        android:id="@+id/ab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/bg_curve_up"
+        android:backgroundTint="@color/dark_brown"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/quicksand_book"
+            android:text="By the Developer,\n\n\nI have made an Food Ordering App- Food Funky.\n\nMade by using Andrioid Studio with Kotlin and XML.\n\nTook help of Internshala tutorial, StackOverflow, Google, Youtube tutorials.\n\nThe designs in the App are made using Canva.\n\n\nThank You,\n\nAnkur Tambe"
+            android:textColor="@color/creme"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

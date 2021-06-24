@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_brown"
+    tools:context=".activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/start_bg_shade"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="#50000000"
+        android:elevation="1dp"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/start_bg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg3"
+        android:scaleType="centerInside" />
+
+
+    <ImageView
+        android:id="@+id/start_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:elevation="3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/circle_logo" />
+
+    <RelativeLayout
+        android:id="@+id/start_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/bg_curve_up"
+        android:elevation="2dp">
+
+        <FrameLayout
+            android:id="@+id/start_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

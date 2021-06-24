@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="token">"f2387ebeed7e47"</string>
+    <string name="shared_preferences">SPreference</string>
+
+    <string name="app_name">FoodFunkyApp</string>
+    <string name="getting_started">Getting Started!</string>
+    <string name="welcome_txt">Welcome to Food Funky</string>
+    <string name="login">LogIn!</string>
+    <string name="signup">SignUp!</string>
+    <string name="bfbp">Best Food. Best Price.</string>
+    <string name="food_funky">FOOD FUNKY</string>
+    <string name="no_acc">Don\'t have an account?</string>
+    <string name="phone_no">Mobile No.(10 digits)</string>
+    <string name="credentials">Enter Your Credentials:</string>
+    <string name="password">Password(Min. 6 char.)</string>
+    <string name="forgot_"><u>Forgot Password?</u></string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="con">Confirm Password</string>
+    <string name="address">Address</string>
+    <string name="next">Next</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="details">Enter Details:</string>
+    <string name="otp">OTP(4 char.)</string>
+    <string name="received_otp">Enter the Received OTP below:</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_pass">New Password(min 4 char.)</string>
+    <string name="submit">Submit!</string>
+    <string name="ankur_tambe">Ankur Tambe</string>
+
+    <string name="close_drawer">Close Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="search_restaurants">Search Restaurants</string>
+    <string name="unable_search">Unable to find any Restaurant with such name!</string>
+    <string name="menu">Choose from the Menu list below:</string>
+    <string name="cart">Proceed To Cart!</string>
+    <string name="add">Add</string>
+    <string name="place_order">Place Order!</string>
+    <string name="ordering_from">Ordering From:</string>
+    <string name="no_orders_placed">No Orders Placed!</string>
+    <string name="previous_orders">Your Previous Orders are given below:</string>
+    <string name="fav_restaurants">Your Favourite Restaurants:</string>
+
+    <string name="question1">Q1. Why is Food Funky doing this?</string>
+    <string name="answer1">A1. At Food Funky we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Food Funky Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question2">Q2. How are you guys are different?</string>
+    <string name="answer2">A2. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Food Funky Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+    <string name="question3">Q3. Why is Food Funky doing this?</string>
+    <string name="answer3">A3. At Food Funky we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Food Funky Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question4">Q4. How are you guys are different?</string>
+    <string name="answer4">A4. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Food Funky Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+
+</resources>

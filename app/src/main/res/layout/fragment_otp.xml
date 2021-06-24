@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creme">
+
+    <TextView
+        android:id="@+id/otp_prog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_brown"
+        android:elevation="11dp"
+        android:fontFamily="@font/bebas"
+        android:gravity="center"
+        android:text="Loading...\nPlease Wait...\n\nFood Funky App"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/otp_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/quicksand_book"
+        android:text="@string/change_password"
+        android:textColor="@color/dark_brown"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/otp_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otp_txt1"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/bebas"
+        android:text="@string/received_otp"
+        android:textColor="@color/dark_brown"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/otp_otp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/otp_txt2"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_et"
+        android:drawableStart="@drawable/ic_code"
+        android:drawableLeft="@drawable/ic_code"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/quicksand_book"
+        android:hint="@string/otp"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/creme"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/light_brown" />
+
+    <EditText
+        android:id="@+id/otp_pass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/otp_otp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_et"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/quicksand_book"
+        android:hint="@string/new_pass"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColor="@color/creme"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/light_brown" />
+
+    <EditText
+        android:id="@+id/otp_con_pass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/otp_pass"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_et"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/quicksand_book"
+        android:hint="@string/con"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColor="@color/creme"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/light_brown" />
+
+    <Button
+        android:id="@+id/otp_subbtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/otp_con_pass"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/quicksand_book"
+        android:text="@string/submit"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/dark_brown" />
+
+    <TextView
+        android:id="@+id/login_forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/quicksand_book"
+        android:gravity="center"
+        android:text="@string/bfbp"
+        android:textColor="@color/dark_brown"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

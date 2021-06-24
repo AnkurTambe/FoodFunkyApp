@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/dark_brown"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bg1"/>
+
+
+    <ImageView
+        android:id="@+id/header_iv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_name1">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/header_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_iv"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/ankur_tambe"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/header_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_tv1"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="+91-9999889988"
+        android:textColor="@color/creme"
+        android:textSize="16sp">
+
+    </TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creme">
+
+    <TextView
+        android:id="@+id/start_getting_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/quicksand_book"
+        android:text="@string/getting_started"
+        android:textColor="@color/dark_brown"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/start_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_getting_started"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/bebas"
+        android:text="@string/welcome_txt"
+        android:textColor="@color/dark_brown"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/start_txt1"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/quicksand_book"
+        android:text="@string/login"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/dark_brown" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/quicksand_book"
+        android:gravity="center"
+        android:text="--OR--"
+        android:textColor="@color/dark_brown"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/no_acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/or"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/quicksand_book"
+        android:gravity="center"
+        android:text="@string/no_acc"
+        android:textColor="@color/dark_brown"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/no_acc"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/quicksand_book"
+        android:text="@string/signup"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/dark_brown" />
+
+    <TextView
+        android:id="@+id/bottom_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/quicksand_book"
+        android:gravity="center"
+        android:text="@string/bfbp"
+        android:textColor="@color/dark_brown"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
