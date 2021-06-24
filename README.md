@@ -1,7 +1,7 @@
 # FoodFunkyApp
 Android Studio
 
-SplashScreen|Login|SignUp|APIs|Frangment|Navigation|SlideOutMenu|PasswordChange|OTPgeneration|Volley|RecyclerView|Picaso|SortingOption|FAQs|ProfilePage|Adapter|
+SplashScreen|Login|SignUp|APIs|Frangment|Navigation|SlideOutMenu|PasswordChange|OTPgeneration|Volley|RecyclerView|Picaso|SortingOption|FAQs|ProfilePage|Adapter|Notification
 
 *APK is the Release section*
 Designs in the App are made using Canva.
