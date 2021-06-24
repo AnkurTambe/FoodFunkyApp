@@ -11,4 +11,5 @@ Food-Ordering Android App made using Kotlin and APIs provided by Internshala.
 Screenshots of the App:
 
 ![img1](https://user-images.githubusercontent.com/76391639/123263314-74c50d80-d516-11eb-817b-ff821b6b608c.jpg)
-![img2](https://user-images.githubusercontent.com/76391639/123263338-7b538500-d516-11eb-8d1c-4f2d06692192.jpg)
+![img2](https://user-images.githubusercontent.com/76391639/123263783-f87efa00-d516-11eb-9477-550d09e1e749.jpg)
+![img3](https://user-images.githubusercontent.com/76391639/123263798-fd43ae00-d516-11eb-900c-0c933772b7af.jpg)
